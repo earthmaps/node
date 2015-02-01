@@ -1,0 +1,31 @@
+{
+	"name": "earthmaps",
+	"version": "0.0.1",
+	"description": "Remote API in Node.js for Earthmaps",
+	"author": "kdi",
+	"contributors": [
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" }
+	],
+	"homepage": "http://earthmaps.org",
+	"keywords": ["earthmaps", "crud", "api", "json"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/earthmaps/node.git"
+	},
+	"bugs": {
+		"url": "http://github.com/earthmaps/node/issues"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://www.makesites.org/licenses/MIT"
+	}],
+	"engines": { "node": ">=0.8.x" },
+	"main": "index",
+	"bin": { },
+	"dependencies": {
+		"passport": "0.2.1",
+		"passport-earthmaps": "0.x",
+		"request": "2.51.0",
+		"underscore": "1.7.0"
+	}
+}
